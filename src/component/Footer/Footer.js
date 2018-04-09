@@ -4,9 +4,9 @@ import "./Footer.css"
 class Footer extends React.Component {
 	render() {
 		return (
-			<div class="grid-x grid-margin-x">
-	            <div class="medium-12 cell">
-	              <h3>Contact Me</h3>
+			<div className="grid-x grid-margin-x">
+	            <div className="medium-12 cell">
+	              <h4>Footer Part</h4>
 	              
 	            </div>
 	            
