@@ -8,7 +8,7 @@ class Header extends React.Component {
 		        <div class="callout primary">
 		          <article class="grid-container">
 		            <div class="">
-		              <h1>Banana Project</h1></div>
+		              <h1>{this.props.name} Project</h1></div>
 		          </article>
 		        </div>
 			);
