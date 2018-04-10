@@ -7,6 +7,8 @@ class Login extends React.Component {
 			 <div class="grid-x grid-margin-x small-up-2 medium-up-3 large-up-4">
 		          <div class="cell">
 		            <h2>Login page </h2>
+		            <label>Username</label>
+		            <input type="text" placeholder="Username" name="username" />
 		          </div>
 		        </div>
 		        
