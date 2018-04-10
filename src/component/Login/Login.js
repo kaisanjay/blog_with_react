@@ -10,8 +10,9 @@ class Login extends React.Component {
 		console.log("Login works")
 	}
 	onChange= (e)=>{
-		this.setState({username:e.target.value});
+		this.setState({[e.target.name] :e.target.value});
 		console.log(this.state)
+
 
 	}
 	render() {
