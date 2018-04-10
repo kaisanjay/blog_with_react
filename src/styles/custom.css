@@ -3,5 +3,10 @@ body{
 }
 
 .primary{
-	background: f2b632; 
+	background: #f2b632 !important; 
+}
+
+.secondary{
+	background: #242c43 !important;
+	color: #ffffff !important;
 }
