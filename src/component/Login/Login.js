@@ -2,6 +2,13 @@ import React from "react";
 import "./Login.css"
 
 class Login extends React.Component {
+	state={
+		username:'',
+		password:''
+	};
+	Login= ()=> {
+		console.log("Login works")
+	}
 	render() {
 		return (
 			 <div className="grid-x grid-margin-x small-up-2 medium-up-3 large-up-4 ex1" >
@@ -11,7 +18,7 @@ class Login extends React.Component {
 		            <input type="text" placeholder="Username" name="username" />
 		            <label>Password</label>
 		            <input type="password" placeholder="password" name="password" />
-		            <input type="submit" className="button" value="Login"/>
+		            <input type="submit" className="button" value="Login" onClick={this.Login}/>
 		          </div>
 		        </div>
 		        
