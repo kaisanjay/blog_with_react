@@ -23,5 +23,3 @@ const Routes = () => (
 	);
 
 export default Routes;
-
-Home

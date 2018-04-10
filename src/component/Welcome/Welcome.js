@@ -8,6 +8,8 @@ class Welcome extends React.Component {
 		        <div class="grid-x grid-margin-x small-up-2 medium-up-3 large-up-4">
 		          <div class="cell">
 		            <h2>Welcome page </h2>
+		            <a href="login" className="button">Login</a>
+		            <a href="signup" className="button success">Signup</a>
 		          </div>
 		        </div>
 
